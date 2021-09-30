@@ -5,7 +5,7 @@
 ## What
 
 `lldb-eval` is an [LLDB](https://lldb.llvm.org/)-based library for evaluating
-debug expressions in the context of the debugger process. All modern debuggers
+debug expressions in the context of the debugged process. All modern debuggers
 support evaluating expressions to inspect the target process state: print out
 variables, access member fields, etc. `lldb-eval` is basically a REPL-like
 library, that allows to inspect the process state using the familiar C++ syntax.
